@@ -1,0 +1,73 @@
+
+
+.back{
+    background-image: url('../images/m.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+ .back span{
+    width: 20px;
+  height: 20px;
+  display: block;
+  background: #242526;
+  border-radius: 50%;
+  position: relative;
+  margin: 15px 5px;
+}
+.dot-1 {
+    animation: anim .5s linear 0s 1;
+    animation-delay: 2s;
+  }
+  
+  .dot-2 {
+    animation: anim .5s linear 0.25s 1;
+    animation-delay: 2.25s;
+  }
+  
+  .dot-3 {
+    animation: anim .5s linear 0.50s 1;
+    animation-delay: 2.5s;
+  }
+  
+  .icons{
+    cursor: pointer;
+  }
+  .icons:hover{
+    scale: 1.5;
+  }
+  
+  @keyframes anim {
+    0% {
+      top: 0px;
+    }
+  
+    50% {
+      top: -15px;
+    }
+  
+    100% {
+      top: 0px;
+    }
+  }
+
+h1{
+   
+
+   background-clip:text;
+   margin-top: 18vh;
+   margin-left: 20vw;
+   color: #242526;
+}
+
+@keyframes water{
+    from{
+        background-position: left 0, top -50;
+    }
+    to{
+        background-position: left 100 ,top -50;
+    }
+}
+
+

@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
+import Cred from './component/credentials';
+import Home from './component/home';
+import Links from './component/links';
+import Navigation from './component/navigation';
+import Project from './component/projects';
+
 
 function App() {
+
+  let[im,setIm] = useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className = 'apps' style = {{overflowX:'hidden'}} >
+     <Navigation/>
+     <Home/>
+
+  
+        <Cred/> 
+       
+     <Project/>
+     <Links/>
+
+   </div>
   );
 }
 

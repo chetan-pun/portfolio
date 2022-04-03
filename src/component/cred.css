@@ -1,0 +1,159 @@
+.custom-shape-divider-top-1638806308 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1638806308 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1638806308 .shape-fill {
+    fill: #342c3c    ;
+}
+
+
+
+
+.python{
+    width:  50px;
+    position: absolute;
+    right: 11rem;
+    bottom: 3rem;
+  
+    animation: circle1 10s linear infinite;
+    
+}
+.mern{
+    position: absolute;
+
+    width:  70px;
+    right: 3rem;
+    bottom: 3rem;
+    animation: circle2 10s linear infinite;
+}
+
+.figma{
+    width:  50px;
+    position: absolute;
+    right: 3rem;
+    bottom: 10rem;
+    animation: circle3 10s linear infinite;
+}
+.mern1{
+    position: absolute;
+    right: 11rem;
+    bottom: 10rem;
+    width:  50px;
+    animation: circle4 10s linear infinite;
+}
+
+@keyframes circle1 {
+    0%{
+        right: 11rem;
+    bottom: 3rem;
+    }
+    25%{
+        right: 11rem;
+    bottom: 10rem;
+    }
+    50%{
+        right: 3rem;
+    bottom: 10rem;
+    }
+    75%{
+        right: 3rem;
+        bottom: 3rem;
+    }
+    100%{
+        right: 11rem;
+        bottom: 3rem;
+    }
+}
+@keyframes circle2 {
+    0%{
+        right: 3rem;
+        bottom: 3rem;
+    }
+    25%{
+        right: 11rem;
+        bottom: 3rem;
+    }
+    50%{
+        right: 11rem;
+    bottom: 10rem;
+    }
+    75%{
+        right: 3rem;
+    bottom: 10rem;
+    }
+    100%{
+        right: 3rem;
+        bottom: 3rem;
+    }
+}
+@keyframes circle3 {
+    0%{
+        right: 3rem;
+    bottom: 10rem;
+    }
+    25%{
+        right: 3rem;
+        bottom: 3rem;
+    }
+    50%{
+        right: 11rem;
+        bottom: 3rem;
+    }
+    75%{
+        right: 11rem;
+        bottom: 10rem;
+    }
+    100%{
+        right: 3rem;
+        bottom: 10rem;
+    }
+}
+@keyframes circle4 {
+    0%{
+        right: 11rem;
+        bottom: 10rem;
+    }
+    25%{
+        right: 3rem;
+        bottom: 10rem;
+    }
+    50%{
+        right: 3rem;
+        bottom: 3rem;
+    }
+    75%{
+        right: 11rem;
+        bottom: 3rem;
+    }
+    100%{
+        right: 11rem;
+    bottom: 10rem;
+    }
+}
+
+
+/* @keyframes circle{
+  0%{
+    transform:rotate(0deg)
+              translate(-105px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-105px)
+              rotate(-360deg);
+  }
+} */
